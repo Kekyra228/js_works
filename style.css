@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.firstsection {
+    height: 1024px;
+    background-image: url(img/Rectangle\ 1.png);
+    
+}
+
+.firstsection__header {
+    padding-top: 217px;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+
+}
+.firstsection__text {
+    width: 481px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px
+}
+.firstsection__text-special {
+    font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+}
+.firstsection__button {
+    font-family: Montserrat;
+    margin-top: 44px;
+    width: 234px;
+    height: 49px;
+    border-radius: 30px;
+    background: #9C0332;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.firstsection__button:hover {
+    background: #EB443F;
+}
+
+
+
+.secondsection {
+    background-color: #000915;
+    min-height: 556px;
+ 
+}
+
+.link_game {
+    display: flex;
+    column-gap: 32px;
+}
+.linkGame {
+    position: relative;
+}
+
+.linkGame:hover {
+    border-radius: 16px;
+    border: 3px solid #44D2FF;
+}
+
+.linkGame__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    position: absolute;
+    right: 268px;
+    bottom: 32px;
+    
+}
+
+.thirdsection {
+    min-height: 800px;
+    background-color: #000915;
+    display: flex;
+    justify-content: space-between;
+}
+.seasons {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+.thirdsection__header {
+    padding-top: 282px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.thirdsection__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 584px;
+}
+
+.thirdsection__button {
+    display: block;
+    width: 234px;
+    height: 49px; 
+    padding-left: 74px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 30px;
+    background: #9C0332;
+      
+}
+.thirdsection__button:hover {
+    background: #EB443F;
+}
+.riddels {
+    min-height: 800px;
+    background-image: url(img/unsplash_iO0I6-mhDEY.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+.textRiddels {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 32px; 
+    width:1200px
+}
+.foot {
+    min-height: 80px;
+    background: #000915;
+}
+.footerText {
+    padding-top: 32px;
+    padding-left: 530px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.seasons__img {
+    padding-top: 233px;
+    width: 485px;
+    height: 333px;
+}
+.fourthsection {
+    min-height: 800px;
+    background-color: #000915;
+    display: flex;
+    justify-content: space-between;
+}
+.remember_words_img {
+    padding-top: 239px;
+    width: 481px;
+    height: 322px;
+}
+
+@media (max-width:767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .game_welcome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .firstsection__header {
+        padding-top: 239px;
+        width: 343px;
+        font-size: 32px;
+      
+    }
+    .firstsection__text {
+        width: 343px;
+        font-size: 14px;
+        line-height: 22px
+    }
+    .firstsection__text-special {
+        font-size: 14px;
+        line-height: 22px
+    }
+    .secondsection {
+        display: flex;
+        align-items: center;
+        height: 1221px;
+    }
+
+    .link_game {
+        flex-wrap: wrap;
+        row-gap: 32px;
+    }
+ 
+    .linkGame__text {
+        right: 247px;
+    }
+    .thirdsection {
+        flex-direction: column;
+    }
+    .seasons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .thirdsection__header {
+        font-size: 32px;
+
+    }
+    .thirdsection__text {
+        width: 343px;
+        font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    }
+    .thirdsection__button {
+        padding-right: 90px;
+    }
+    .seasons__img {
+        width: 344px;
+        height: 236px;
+        gap: 64px;
+        padding-top: 0;
+    }
+    .fourthsection {
+        flex-direction: column-reverse;
+    }
+    .remember_words_img {
+        padding-top: 0;
+        width: 344px;
+        height: 231px;
+    }
+    .textRiddels {
+        font-size: 14px;
+        line-height: 22px;
+        width: 343px;
+    }
+}
