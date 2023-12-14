@@ -120,11 +120,10 @@ line-height: 32px;
 }
 
 .thirdsection__button {
+    text-align: center;
     display: block;
     width: 234px;
     height: 49px; 
-    padding-left: 74px;
-    padding-top: 13px;
     box-sizing: border-box;
     color: #FFF;
     font-family: Montserrat;
